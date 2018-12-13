@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+           
+            // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+             compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.0.RELEASE'
+            // https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka
+          //   compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.2.0.RELEASE'
+            // https://mvnrepository.com/artifact/commons-logging/commons-logging
+             compile group: 'commons-logging', name: 'commons-logging', version: '1.2'
+             // https://mvnrepository.com/artifact/org.springframework.retry/spring-retry
+             compile group: 'org.springframework.retry', name: 'spring-retry', version: '1.2.0.RELEASE'
+             // https://mvnrepository.com/artifact/org.springframework/spring-aspects
+           compile group: 'org.springframework', name: 'spring-aspects', version: '5.0.0.RELEASE'
+  
+}
+
